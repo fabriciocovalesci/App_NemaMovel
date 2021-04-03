@@ -1,0 +1,102 @@
+@import "~@nativescript/theme/core";
+@import "~@nativescript/theme/blue";
+
+// Place any CSS rules you want to apply on both iOS and Android here.
+// This is where the vast majority of your CSS code goes.
+
+// Font icon class
+.fab {
+    font-family: "Font Awesome 5 Brands", "fa-brands-400";
+    font-weight: 400;
+}
+
+.fas {
+    font-family: "Font Awesome 5 Free", "fa-solid-900";
+    font-weight: 900;
+}
+
+.far {
+    font-family: "Font Awesome 5 Free", "fa-regular-400";
+    font-weight: 400;
+}
+
+// Common page class
+.page__content {
+    &-icon,
+    &-placeholder {
+        color: const(grey);
+        font-size: 20;
+        vertical-align: center;
+        horizontal-align: center;
+    }
+
+    &-icon {
+        font-size: 72;
+        vertical-align: top;
+        margin-top: 20%;
+    }
+}
+
+// Drawer navigation custom styles
+.nt-drawer__header-image {
+    color: const(grey);
+}
+
+.page__content-title {
+    font-size: 18px;
+}
+
+.page__content-text {
+    font-size: 14;
+    color: black;
+    margin-top: 15;
+    margin-left: 10;
+    margin-right: 10;
+}
+
+.page__content-alert {
+    color: red;
+    margin-top: 150;
+    margin-left: 10;
+    margin-right: 10;
+}
+
+.text_italic {
+    font-style: italic !important;
+}
+
+.break_line {
+    white-space: pre;
+}
+
+.buttonStyle {
+    margin-left: 80px;
+    padding: 10px;
+
+}
+
+.buttonStyleRad {
+    margin-left: 45px;
+    padding: 10px;
+
+}
+
+.buttonStyleToleRes {
+    margin-left: 25px;
+    padding: 10px;
+}
+
+.buttonStyleAmostra {
+    margin-left: 35px;
+    padding: 10px;
+}
+
+.buttonStyleLabo {
+    margin-left: 30px;
+    padding: 10px;  
+}
+
+.textStyle {
+    margin: 20px;
+    text-align: justify;
+}

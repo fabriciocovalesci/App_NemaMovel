@@ -1,0 +1,21 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="fill">
+    <item>
+        <bitmap android:gravity="fill" android:src="@drawable/background" />
+    </item>
+    <item>
+        <bitmap 
+        android:gravity="center" android:src="@drawable/logo" 
+        />
+    </item>
+    <item
+    android:bottom="60dp"
+    android:left="5dp">
+      <bitmap android:gravity="center_vertical|left|bottom"  android:src="@drawable/linfe" />
+     </item>
+    <item
+    android:bottom="60dp" 
+    android:right="5dp" 
+    >
+      <bitmap android:gravity="center_vertical|right|bottom"  android:src="@drawable/ifrs" />
+     </item>
+</layer-list>
