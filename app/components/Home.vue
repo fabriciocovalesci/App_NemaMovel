@@ -79,7 +79,7 @@
                 </GridLayout>
         <Label class="hr m-y-15" row="1"/>
                   <GridLayout columns="auto,auto" row="2" rows="*, *, *, *, *, *">
-                    <Image src="~/assets/images/Disseminacao.jpg" class="m-l-20" height="100" row=0  stretch="aspectFill"/>
+                    <Image src="~/assets/images/exclamacao.png" class="m-l-20" height="100" row=0  stretch="aspectFill"/>
                     <Button class="-outline -rounded-lg buttonStylePonto" width="230" row=0 col=1 @tap="onNavigationItemTap(Disseminacao)">
                     <FormattedString>
                         <Span text="Disseminação"></Span>
@@ -88,7 +88,7 @@
                 </GridLayout>
         <Label class="hr m-y-15" row="1"/>
       <GridLayout columns="auto,auto" row="2" rows="*, *, *, *, *, *">
-        <Image src="~/assets/images/Ponto.png" class="image-home" height="100" row=0  stretch="aspectFill"/>
+        <Image src="~/assets/images/interrogacao.png" class="image-home" height="100" row=0  stretch="aspectFill"/>
         <Button class="-outline -rounded-lg buttonStyle" width="230" row=0 col=1 @tap="onNavigationItemTap(Contaminou)">
           <FormattedString>
               <Span text="Contaminou o que fazer ?"></Span>
