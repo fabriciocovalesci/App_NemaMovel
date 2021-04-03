@@ -25,7 +25,7 @@
 
        <Label class="hr m-y-15" row="1"/>
       <GridLayout columns="auto,auto" row="2" rows="*, *, *, *, *, *">
-        <Image src="~/assets/images/nematoides.jpeg" class="m-b-15 m-l-20" height="100" row=0  stretch="aspectFill"/>
+        <Image src="~/assets/images/nematoides.jpeg" class="image-home" height="100" row=0  stretch="aspectFill"/>
         <Button class="-outline -rounded-lg buttonStyle" width="230" row=0 col=1 @tap="onNavigationItemTap(Nematoide)">
           <FormattedString>
               <Span text="O que são Nematoides ?"></Span>
@@ -34,7 +34,7 @@
       </GridLayout>
       <Label class="hr m-y-15" row="1"/>
           <GridLayout columns="auto,auto" row="2" rows="*, *, *, *, *, *">
-                    <Image src="~/assets/images/soja.jpeg" class="m-b-15 m-l-20" height="100" row=0  stretch="aspectFill"/>
+                    <Image src="~/assets/images/soja.jpeg" class="image-home" height="100" row=0  stretch="aspectFill"/>
                     <Button class="-outline -rounded-lg buttonStyle" width="230" row=0 col=1 @tap="onNavigationItemTap(NemaCistoSoja)">
                     <FormattedString>
                         <Span text="Nematoide de cisto de soja"></Span>
@@ -43,7 +43,7 @@
                 </GridLayout>
         <Label class="hr m-y-15" row="1"/>
                   <GridLayout columns="auto,auto" row="2" rows="*, *, *, *, *, *">
-                    <Image src="~/assets/images/galhas.jpeg" class="m-b-15 m-l-20" height="100" row=0  stretch="aspectFill"/>
+                    <Image src="~/assets/images/galhas.jpeg" class="image-home" height="100" row=0  stretch="aspectFill"/>
                     <Button class="-outline -rounded-lg buttonStyle" width="230" row=0 col=1 @tap="onNavigationItemTap(NemaGalhas)">
                     <FormattedString>
                         <Span text="Nematoide das galhas"></Span>
@@ -52,8 +52,8 @@
                 </GridLayout>
         <Label class="hr m-y-15" row="1"/>
                   <GridLayout columns="auto,auto" row="2" rows="*, *, *, *, *, *">
-                    <Image src="~/assets/images/radiculares.jpeg" class="m-b-15 m-l-20" height="100" row=0  stretch="aspectFill"/>
-                    <Button class="-outline -rounded-lg buttonStyleRad" width="230" row=0 col=1 @tap="onNavigationItemTap(NemaLesoesRad)">
+                    <Image src="~/assets/images/radiculares.jpeg" class="image-home" height="100" row=0  stretch="aspectFill"/>
+                    <Button class="-outline -rounded-lg buttonStyle" width="230" row=0 col=1 @tap="onNavigationItemTap(NemaLesoesRad)">
                     <FormattedString>
                         <Span text="Nematoide das lesões radiculares"></Span>
                     </FormattedString>
@@ -61,8 +61,8 @@
                 </GridLayout>
         <Label class="hr m-y-15" row="1"/>
                 <GridLayout columns="auto,auto" row="2" rows="*, *, *, *, *, *">
-                    <Image src="~/assets/images/Resistentes.jpeg" class="m-b-15 m-l-20" width="110" height="100" row=0  stretch="aspectFill"/>
-                    <Button class="-outline -rounded-lg buttonStyleToleRes" width="230" row=0 col=1 @tap="onNavigationItemTap(NemaCultTolerResi)">
+                    <Image src="~/assets/images/Resistentes.jpeg" class="image-home" width="80" height="100" row=0  stretch="aspectFill"/>
+                    <Button class="-outline -rounded-lg buttonStyle" width="230" row=0 col=1 @tap="onNavigationItemTap(NemaCultTolerResi)">
                     <FormattedString>
                         <Span text="Tolerantes X Resistentes"></Span>
                     </FormattedString>
@@ -70,8 +70,8 @@
                 </GridLayout>
         <Label class="hr m-y-15" row="1"/>
                   <GridLayout columns="auto,auto" row="2" rows="*, *, *, *, *, *">
-                    <Image src="~/assets/images/plantasDaninha.jpeg" class="m-b-15 m-l-20" height="100" row=0  stretch="aspectFill"/>
-                    <Button class="-outline -rounded-lg buttonStyleRad" width="230" row=0 col=1 @tap="onNavigationItemTap(NemaPlanDan)">
+                    <Image src="~/assets/images/plantasDaninha.jpeg" class="image-home" height="100" row=0  stretch="aspectFill"/>
+                    <Button class="-outline -rounded-lg buttonStyle" width="230" row=0 col=1 @tap="onNavigationItemTap(NemaPlanDan)">
                     <FormattedString>
                         <Span text="Plantas Daninhas X Nematoides"></Span>
                     </FormattedString>
@@ -79,8 +79,8 @@
                 </GridLayout>
         <Label class="hr m-y-15" row="1"/>
                   <GridLayout columns="auto,auto" row="2" rows="*, *, *, *, *, *">
-                    <Image src="~/assets/images/disseminacao.jpeg" class="m-b-15 m-l-20" height="100" row=0  stretch="aspectFill"/>
-                    <Button class="-outline -rounded-lg buttonStyleRad" width="230" row=0 col=1 @tap="onNavigationItemTap(Disseminacao)">
+                    <Image src="~/assets/images/Disseminacao.jpg" class="m-l-20" height="100" row=0  stretch="aspectFill"/>
+                    <Button class="-outline -rounded-lg buttonStylePonto" width="230" row=0 col=1 @tap="onNavigationItemTap(Disseminacao)">
                     <FormattedString>
                         <Span text="Disseminação"></Span>
                     </FormattedString>
@@ -88,8 +88,8 @@
                 </GridLayout>
         <Label class="hr m-y-15" row="1"/>
       <GridLayout columns="auto,auto" row="2" rows="*, *, *, *, *, *">
-        <Image src="~/assets/images/Ponto.png" class="m-b-15 m-l-20" height="100" row=0  stretch="aspectFill"/>
-        <Button class="-outline -rounded-lg buttonStyleRad" width="230" row=0 col=1 @tap="onNavigationItemTap(Contaminou)">
+        <Image src="~/assets/images/Ponto.png" class="image-home" height="100" row=0  stretch="aspectFill"/>
+        <Button class="-outline -rounded-lg buttonStyle" width="230" row=0 col=1 @tap="onNavigationItemTap(Contaminou)">
           <FormattedString>
               <Span text="Contaminou o que fazer ?"></Span>
           </FormattedString>
@@ -98,8 +98,8 @@
       <Label class="hr m-y-15" row="1"/>
 
       <GridLayout columns="auto,auto" row="2" rows="*, *, *, *, *, *">
-        <Image src="~/assets/images/Amostra.png" class="m-b-15 m-l-20" width="100" height="100" row=0  stretch="aspectFill"/>
-        <Button class="-outline -rounded-lg buttonStyleAmostra" width="230" row=0 col=1 @tap="onNavigationItemTap(Amostras)">
+        <Image src="~/assets/images/Amostra.png" class="image-home" width="80" height="100" row=0  stretch="aspectFill"/>
+        <Button class="-outline -rounded-lg buttonStyle" width="230" row=0 col=1 @tap="onNavigationItemTap(Amostras)">
           <FormattedString>
               <Span text="Realizando a amostragem"></Span>
           </FormattedString>
@@ -108,8 +108,8 @@
       <Label class="hr m-y-15" row="1"/>
 
       <GridLayout columns="auto,auto" row="2" rows="*, *, *, *, *, *">
-        <Image src="~/assets/images/laboratorio.png" class="m-b-15 m-l-20" height="100" row=0  stretch="aspectFill"/>
-        <Button class="-outline -rounded-lg buttonStyleLabo" width="230" row=0 col=1 @tap="onNavigationItemTap(Laboratorio)">
+        <Image src="~/assets/images/laboratorio.png" class="image-home" height="100" row=0  stretch="aspectFill"/>
+        <Button class="-outline -rounded-lg buttonStyle" width="230" row=0 col=1 @tap="onNavigationItemTap(Laboratorio)">
           <FormattedString>
               <Span  text="Sugestões de laboratórios"></Span>
           </FormattedString>
@@ -118,8 +118,8 @@
       <Label class="hr m-y-15" row="1"/>     
 
       <GridLayout columns="auto,auto" row="2" rows="*, *, *, *, *, *">
-        <Image src="~/assets/images/fotos.png" class="m-b-15 m-l-20" height="100" row=0  stretch="aspectFill"/>
-        <Button class="-outline -rounded-lg buttonStyleLabo" width="230" row=0 col=1 @tap="onNavigationItemTap(Fotos)">
+        <Image src="~/assets/images/fotos.png" class="image-home" height="100" row=0  stretch="aspectFill"/>
+        <Button class="-outline -rounded-lg buttonStyle" width="230" row=0 col=1 @tap="onNavigationItemTap(Fotos)">
           <FormattedString>
               <Span  text="Fotos"></Span>
           </FormattedString>
