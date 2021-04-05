@@ -77,11 +77,54 @@
           fontSize=18
           textWrap="true">
             <FormattedString>
-            <Span text=" Utilizar culturas que não favoreçam a multiplicação dessa espécie, por isso é de suma importância conhecer qual espécie de nematoide está presente na área em questão. A"></Span>
+            <Span text="Possuem maior período de ação e auxiliam na sustentabilidade e microbiota do solo."></Span>
+            </FormattedString>
+        </Label>
+
+        <Label class="p-l-15 p-b-10 m-r-20 m-t-10"
+          fontSize=18
+          textWrap="true">
+            <FormattedString>
+            <Span text="Os agentes biológicos registrados para essa espécie são: as bactérias "></Span>
+            <Span text=" Pasteuria nishizawae e Bacillus amyloliquefaciens  " fontStyle="italic"/>
+            <Span text="que agem nos ovos , juvenis e fêmeas e o fungo " />
+            <Span text=" Trichoderma koningiopsis " fontStyle="italic"/>
+            <Span text="que tem ação em ovos e juvenis." />
+            </FormattedString>
+        </Label>
+
+        <Label
+          class="page__content-title m-t-30"
+          textDecoration="underline"
+          fontSize=17
+          text="Manejo cultural"
+          textAlignment="center"/>
+
+        <Label class="p-l-15 p-b-10 m-r-20 m-t-10"
+          fontSize=18
+          textWrap="true">
+            <FormattedString>
+            <Span text=" Utilizar culturas que não favoreçam a multiplicação dessa espécie, por isso é de suma importância conhecer qual espécie de nematoide está presente na área em questão."></Span>
+            </FormattedString>
+        </Label>
+      
+        <Label class="p-l-15 p-b-10 m-r-20 m-t-10"
+          fontSize=18
+          textWrap="true">
+            <FormattedString>
+            <Span text="A "></Span>
             <Span text=" Crotalaria spectabilis " fontStyle="italic"/>
-            <Span text="é uma importante aliada, pois é antagonista e repele a maioria das espécies de nematoides. A " />
+            <Span text="é uma importante aliada, pois é antagonista e repele a maioria das espécies de nematoides." />
+            </FormattedString>
+        </Label>
+
+        <Label class="p-l-15 p-b-10 m-r-20 m-t-10"
+          fontSize=18
+          textWrap="true">
+            <FormattedString>
+            <Span text="A " />
             <Span text=" Crotalaria ocrhroleuca" fontStyle="italic"/>
-            <Span text="deve ser evitada, pois pode ser hospedeira e multiplicadora dessa espécie." />
+            <Span text=" deve ser evitada, pois pode ser hospedeira e multiplicadora dessa espécie." />
             </FormattedString>
         </Label>
 
